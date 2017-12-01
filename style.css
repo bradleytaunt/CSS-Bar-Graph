@@ -19,6 +19,15 @@ body {
     margin: 0;
     padding: 0;
 }
+/*h2*/.title {
+    margin: 0 0 5em;
+    padding: 0 0.5em;
+    text-align: center;
+}
+/*h2*/.title span {
+    display: block;
+    font-size: 80%;
+}
 caption {
     font-style: italic;
 }
@@ -28,7 +37,13 @@ caption {
 @media(max-width: 800px) {
 
     body {
-        padding: 50px 0 0;
+        padding: 20px 0 0;
+    }
+
+    /*h2*/.title {
+        margin: 0 auto 1em;
+        max-width: 600px;
+        text-align: left;
     }
 
     #bar-graph {
