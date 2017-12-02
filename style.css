@@ -20,7 +20,7 @@ body {
     padding: 0;
 }
 /*h2*/.title {
-    margin: 0 0 5em;
+    margin: 2em 0 5em;
     padding: 0 0.5em;
     text-align: center;
 }
@@ -87,10 +87,9 @@ caption {
 @media(min-width: 800px) {
 
     body {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        display: block;
+        margin: 0 auto;
+        max-width: 600px;
     }
 
     #bar-graph {
