@@ -194,6 +194,11 @@ caption {
     }
     #bar-graph .bar p { margin: 5px 0 0; padding: 0; }
 
+    #bar-graph tbody {
+        display: block;
+        height: 340px;
+    }
+
     #bar-graph tbody .before {
         background-color: #E7E7E7;
         border-color: transparent;
